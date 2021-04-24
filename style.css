@@ -1,0 +1,36 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table {
+	width: 50%;	
+}
+
+.aqiColor[data|="green"] {
+	color: green;
+}
+
+.aqiColor[data|="lightgreen"] {
+	color: lightgreen;
+}
+
+.aqiColor[data|="yellow"] {
+	color: yellow;
+}
+
+.aqiColor[data|="orange"] {
+	color: orange;
+}
+
+.aqiColor[data|="red"] {
+	color: red;
+}
+
+.aqiColor[data|="darkred"] {
+	color: darkred;
+}
