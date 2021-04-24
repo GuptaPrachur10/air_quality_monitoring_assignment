@@ -2,7 +2,7 @@ var timeStamp = 0.0;
 var cityMap = new Map();
 var noOfCities = 0;
 
-const socket = new WebSocket('ws://city-ws.herokuapp.com');
+const socket = new WebSocket('wss://city-ws.herokuapp.com');
 socket.addEventListener('message', function (event) {
     timeStamp = event.timeStamp;
     data = JSON.parse(event.data);
